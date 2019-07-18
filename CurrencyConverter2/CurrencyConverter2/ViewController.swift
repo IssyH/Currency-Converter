@@ -22,6 +22,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         yenLabel.text = "\(dollarAmount * yenRate)"
         euroLabel.text = "\(dollarAmount * euroRate)"
         dollarAmount = 0.0
+        
+        //Above are the calculations to convert dollar amount enetered into field
     }
     
     @IBAction func clearText(_ sender: UIButton) {
